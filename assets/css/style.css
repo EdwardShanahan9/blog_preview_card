@@ -27,7 +27,6 @@ html {
 body {
   background-color: var(--color-yellow);
   font-family: var(--font-family);
-  line-height: 150%;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -106,10 +105,14 @@ body {
   font-weight: 900;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 500px) {
   .card {
     width: 384px;
     padding: 2.4rem;
+  }
+
+  .card__img {
+    height: 200px;
   }
 
   .card__tab {
